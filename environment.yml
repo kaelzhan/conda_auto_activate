@@ -1,23 +1,21 @@
-name: py37
+name: py3_11
 channels:
   - defaults
 dependencies:
-  - ca-certificates=2019.10.16=0
-  - certifi=2019.9.11=py37_0
-  - libcxx=4.0.1=hcfea43d_1
-  - libcxxabi=4.0.1=hcfea43d_1
-  - libedit=3.1.20181209=hb402a30_0
-  - libffi=3.2.1=h475c297_4
-  - ncurses=6.1=h0a44026_1
-  - openssl=1.1.1d=h1de35cc_3
-  - pip=19.3.1=py37_0
-  - python=3.7.5=h359304d_0
-  - readline=7.0=h1de35cc_5
-  - setuptools=41.6.0=py37_0
-  - sqlite=3.30.1=ha441bb4_0
-  - tk=8.6.8=ha441bb4_0
-  - wheel=0.33.6=py37_0
-  - xz=5.2.4=h1de35cc_4
-  - zlib=1.2.11=h1de35cc_3
-prefix: /Users/i522331/opt/anaconda3/envs/py37
-
+  - bzip2=1.0.8=h620ffc9_4
+  - ca-certificates=2023.01.10=hca03da5_0
+  - certifi=2022.12.7=py311hca03da5_0
+  - libffi=3.4.2=hca03da5_6
+  - ncurses=6.4=h313beb8_0
+  - openssl=1.1.1t=h1a28f6b_0
+  - pip=23.0.1=py311hca03da5_0
+  - python=3.11.2=hc0d8a6c_0
+  - readline=8.2=h1a28f6b_0
+  - setuptools=65.6.3=py311hca03da5_0
+  - sqlite=3.41.1=h80987f9_0
+  - tk=8.6.12=hb8d0fd4_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.38.4=py311hca03da5_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+prefix: /opt/anaconda3/envs/py3_11
